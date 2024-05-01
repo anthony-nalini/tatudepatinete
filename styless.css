@@ -1,0 +1,111 @@
+/* Reset CSS geral */
+* {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+  }
+  
+  /* Estilo geral */
+  body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      background-color: #f4f4f4;
+      padding: 20px;
+  }
+  
+  header {
+      text-align: center;
+      margin-bottom: 20px;
+  }
+  
+  h1 {
+      color: #333;
+  }
+  
+  section {
+      margin-bottom: 30px;
+  }
+  
+  h2 {
+      color: #333;
+      margin-bottom: 10px;
+  }
+  
+  p {
+      color: #666;
+      margin-bottom: 10px;
+  }
+  
+  ul {
+      list-style-type: none;
+  }
+  
+  ul li {
+      margin-bottom: 5px;
+  }
+  
+  article {
+      margin-top: 20px;
+  }
+  
+  article h3 {
+      color: #333;
+  }
+  
+  /* Estilo específico para informações de contato */
+  #section_1 p a {
+      color: #007bff;
+      text-decoration: none;
+  }
+  
+  /* Estilo específico para as nacionalidades */
+  .Brasileiro {
+    height: 200px;
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    background-image: linear-gradient( to right, green,yellow , blue,yellow,green);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .Italiano {
+    height: 200px;
+    text-align: center;
+    color: red;
+    font-size: 40px;
+    background-image: linear-gradient(to right, #008c45, #f4f5f0, #cd202a);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}  
+  /* Estilo para links de certificados */
+  article a {
+      display: block;
+      margin-bottom: 5px;
+      color: #007bff;
+  }
+  
+  /* Estilo para imagens de certificados */
+  article img {
+      display: block;
+      margin-bottom: 10px;
+  }
+  
+  /* Estilo para datas de experiências */
+  section:last-of-type ul li {
+      font-weight: bold;
+  }
+  
+  /* Estilo para áreas de atuação */
+  section:last-of-type ul li::before {
+      content: "• ";
+      color: #007bff;
+  }
+  #footer{
+      background-color: #007bff;
+      text-align: center;
+      font-size: 40px;
+  }
+  
